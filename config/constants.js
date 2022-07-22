@@ -1,0 +1,27 @@
+export const RESPONSE_CODES = {
+  GET: 200,
+  POST: 201,
+  DELETE: 204,
+  PUT: 204,
+  NOT_FOUND: 404,
+  SERVER_ERROR: 500,
+  UNAUTHORIZED: 401,
+  BAD_REQUEST: 400,
+};
+
+export const ROLES = {
+  ADMIN: 1,
+  BROKER: 2,
+  BROKER_USER: 3,
+  CUSTOMER:4
+};
+
+export const QUOTE_STATUS = {
+  PENDING:1,
+  ACTIVE:2,
+  INACTIVE:3,
+  REJECTED: 4,
+  EMITIDO: 5,
+  MODERATION:6,
+  EM_EMISSAO:7
+};
